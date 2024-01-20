@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .warpper{
+              height: fit-content;
+              width: fit-content;
+        }
+        .section{
+            height: fit-content;
+            width: fit-content;
+            border: 1px solid #000000ab;
+        }
+        .content{
+            height: fit-content;
+            width: fit-content;
+            border: 5px solid #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="warpper">
+        <div class="section">
+            <div class="content">
+                <div class="header">
+                    <h2>Contact Us</h2>
+                </div>
+                <form>
+
+                    <label for="to-email">To</label>
+                    <input type="email" id="email" name="email" value="Example Cafe"><br>
+                    <label for="email">Your email:</label>
+                    <input type="email" id="email" name="email" value=""><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                    <label for="file">Attach File:</label>
+                    <input type="file" id="file" name="file"><br>
+
+                    <label for="titleBorder">How you found us:</label><br>
+                    <label for="hear">How did you hear of us</label>
+                    <select id="hear" name="hear">
+                        <option value="google">Google</option>
+                    </select><br>
+                    <label for="updates">Newsletter</label>
+                    <input type="checkbox" id="updates" name="updates" value="yes">
+                    <label for="updates">Ensure this box is checked if you would like to receive email updates</label><br>
+                    
+                    <input type="submit" value="Send message">
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

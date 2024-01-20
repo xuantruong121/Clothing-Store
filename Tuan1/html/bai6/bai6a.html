@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .warpper{
+              height: fit-content;
+              width: fit-content;
+        }
+        .section{
+            height: fit-content;
+            width: fit-content;
+            border: 1px solid #000000ab;
+            background-color: rgb(125, 190, 255);
+        }
+        .content{
+            height: fit-content;
+            width: 615px;
+            padding: 5px;
+        }
+        .form-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        hr {
+            border: #000000ab 1px solid;
+            width: 530px;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        label{
+            margin-left: 40px;
+        }
+        label[for="first-name"]{
+            margin-right: 103px;
+        }
+        #first-name{
+            width: 110px;
+            margin-right: 0px;
+        }
+        label[for="last-name"]{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        #last-name{
+            margin-left: 0px;
+            width: 110px;
+        }
+        label[for="address-1"],
+        label[for="address-2"]{
+            margin-right: 102.5px;
+        }
+        #address-1,#address-2{
+            width: 205px;
+        }
+        label[for="city"]{
+            margin-right: 147px;
+        }
+        #city{
+            width: 140px;
+        }
+        label[for="state"]{
+            margin-left: 0px;
+        }
+        #state{
+            width: 35px;
+        }
+        label[for="zip"]{
+            margin-left: 0px;
+        }
+        #zip{
+            width: 60px;
+        }
+        label[for="country"]{
+            margin-right: 123px;
+        }
+        #country{
+            width: 140px;
+        }
+        label[for="product"]{
+            margin-right: 124px;
+        }
+        #product{
+            width: 120px;
+        }
+        label[for="date-purchased"]{
+            margin-right: 74px;
+        }
+        #date-purchased{
+            width: 150px;
+        }
+        label[for="serial-number"]{
+            margin-right: 124px;
+        }
+        #serial-number{
+            width: 147px;
+        }
+        label[for="used-for"]{
+            margin-right: 121px;
+        }
+        #used-for-home{
+            margin-right: 0px;
+        }
+        label[for="used-for-home"]{
+            margin-left: 0px;
+            margin-right: 80px;
+        }
+        #used-for-educational{
+            margin-right: 0px;
+        }
+        label[for="used-for-educational"]{
+            margin-left: 0px;
+        }
+        #used-for-business{
+            margin-right: 0px;
+            margin-left: 230px;
+        }
+        label[for="used-for-business"]{
+            margin-left: 0px;
+            margin-right: 62px;
+        }
+        #used-for-other{
+            margin-right: 0px;
+        }
+        label[for="used-for-other"]{
+            margin-left: 0px;
+        }
+        #used-for-government{
+            margin-right: 0px;
+            margin-left: 230px;
+        }
+        label[for="used-for-government"]{
+            margin-left: 0px;
+        }
+        label[for="system"]{
+            margin-right: 0px;
+        }
+        #windows{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        label[for="windows"]{
+            margin-left: 0px;
+            margin-right: 63px;
+        }
+        #junix{
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        label[for="junix"]{
+            margin-left: 0px;
+        }
+        #macintosh{
+            margin-right: 0px;
+            margin-left: 231px;
+        }
+        label[for="macintosh"]{
+            margin-left: 0px;
+            margin-right: 52px;
+        }
+        label[for="other"]{
+            margin-left: 0px;
+        }
+        label[for="comments"]{
+            margin-right: 105px;
+        }
+        #sumbit,#reset{
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="warpper">
+        <div class="section">
+            <div class="content">
+                <form action="/submit-registration" method="post">
+                    <div>
+                        <h2>Registration Form</h2>
+                    </div>
+                    <div>
+                        <p>Register your Jackson Electronics product here</p>
+                        <label for="first-name">First Name:</label>
+                        <input type="text" id="first-name" name="first-name">
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" id="last-name" name="last-name">
+                        <br>
+                        <label for="address-1">Address #1:</label>
+                        <input type="text" id="address-1" name="address-1">
+                        <br>
+                        <label for="address-2">Address #2:</label>
+                        <input type="text" id="address-2" name="address-2">
+                        <br>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city">
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="state">
+                        <label for="zip">Zip:</label>
+                        <input type="text" id="zip" name="zip">
+                        <br>
+                        <label for="country">Country:</label>
+                        <input type="text" id="country" name="country" value="United States" readonly><br>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div>
+                        <label for="product">Product:</label>
+                        <input type="text" id="product" name="product" value="ScanMaster" readonly><br>
+                        <label for="date-purchased">Date Purchased:</label>
+                        <input type="date" id="date-purchased" name="date-purchased"><br>
+                        <label for="serial-number">Serial #:</label>
+                        <input type="text" id="serial-number" name="serial-number"><br>
+                        <label for="used-for">Used for:</label>
+                        <input type="radio" id="used-for-home" name="used-for" value="home">
+                        <label for="used-for-home">Home</label>
+                        <input type="radio" id="used-for-educational" name="used-for" value="educational-institution">
+                        <label for="used-for-educational">Educational Institution</label>
+                        <br>
+                        <input type="radio" id="used-for-business" name="used-for" value="business">
+                        <label for="used-for-business">Business</label>
+                        <input type="radio" id="used-for-other" name="used-for" value="other">
+                        <label for="used-for-other">Other</label>
+                        <br>
+                        <input type="radio" id="used-for-government" name="used-for" value="government">
+                        <label for="used-for-government">Government</label>
+                        
+                        
+                    </div>
+                    <div>
+                        <label for="system">System(check all that apply):</label>
+                        <input type="checkbox" id="windows" name="system[]" value="windows">
+                        <label for="windows">Windows</label>
+                        <input type="checkbox" id="junix" name="system[]" value="unix">
+                        <label for="junix">UNIX</label>
+                        <br>
+                        <input type="checkbox" id="macintosh" name="system[]" value="macintosh">
+                        <label for="macintosh">Macintosh</label>
+                        <input type="checkbox" id="other" name="system[]" value="other">
+                        <label for="other">Other</label>
+                        <br>
+                    </div>
+                    <div>
+                        <hr>
+                        <label for="comments">Comments?:</label>
+                        <textarea id="comments" name="comments"></textarea>
+                        <br>
+                    </div>
+                    <div class="form-container">
+                        <input type="submit" value="Click to register">
+                        <input type="reset" value="Click to cancel">
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

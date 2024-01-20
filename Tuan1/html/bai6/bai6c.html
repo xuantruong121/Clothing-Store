@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .warpper{
+              height: fit-content;
+              width: fit-content;
+        }
+        .section{
+            height: fit-content;
+            width: fit-content;
+            border: 1px solid #000000ab;
+        }
+        .content{
+            height: fit-content;
+            width: fit-content;
+            border: 5px solid #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="warpper">
+        <div class="section">
+            <div class="content">
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="telephone">Telephone Number:</label><br>
+                    <input type="tel" id="telephone" name="telephone"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="color">Favorite Color:</label><br>
+                    <input type="color" id="color" name="color"><br>
+                    <label for="birthday">Date of Birth:</label><br>
+                    <input type="date" id="birthday" name="birthday" value="2015-07" min="1900-01" max="2023-12"><br>
+                    
+                    <input type="submit" value="Submit">
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
