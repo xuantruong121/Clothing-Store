@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        .wrapper {
+            margin-top: 20px;
+            width: 1040px;
+            height: 850px;
+            border: 2px outset grey;
+            border-top: 1px solid grey
+        }
+        .container {
+            width: 1000px;
+            height: 800px;
+            margin-top: 25px;
+        }
+        .header {
+            width: 100%;
+            height: 200px;
+            float: left;
+            background-image: url(background.png);
+        }
+        h1 {
+            margin-left: 180px;
+            margin-top: 50px;
+            letter-spacing: 2px;
+            color: white;
+        }
+        #tit {
+            margin-left: 180px;
+            color: white;
+        }
+        .nav {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(185, 179, 179);
+            margin-top: 55px;
+        }
+        .nav a{
+            font-size: 25px;
+            margin-left: 40px;
+            text-decoration: none;
+            color: white;
+        }
+        #hi1 {
+            width: 120px;
+            height: 130px;
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+        .section {
+            width: 75%;
+            height: 550px;
+            background-color: white;
+            float: left ;
+        }
+        #ar1{
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        #ar2{
+            float: left;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .section #pic1 {
+            float: left;
+        }
+        .section #pic2 {
+            float: left;
+        }
+        #hi3 {
+            width: 95%;
+            margin-top: 5px;
+            margin-left: 7px;
+        }
+        #text {
+            margin-left: 20px;
+            text-align: left;
+            margin-top: 20px;
+            float: right;
+            font-size: larger;
+        }
+        .aside {
+            width: 25%;
+            height: 550px;
+            background-color: white;
+            float: right;
+        }
+        #sec1>h3 {
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: larger;
+            color: rgb(223, 123, 140);
+        }
+        #sec2>h3 {
+            margin-left: 20px;
+            font-size: larger;
+            color: black;
+        }.footer {
+            clear: both;
+            width: 100%;
+            height: 50px;
+            background-color: rgb(185, 179, 179);
+            padding-top: 20px;
+        }
+        .footer>b {
+            margin-left: 20px;
+            margin-top: 20px;
+            padding-top: 40px;
+            color: white;
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                    <img style="float: left;" id="hi1" src="logo.png" width="100px">
+                    <h1>YOKO'S KITCHEN</h1>
+                    <h3 id="tit">JAPANESE COOKING CLASSES</h3>
+                <div class="nav">  
+                    <a style="color: black;" href="#">home</a>
+                    <a href="#">classes</a>
+                    <a href="#">catering</a>
+                    <a href="#">about</a>
+                    <a href="#">contact</a>  
+                </div>
+            </div>
+            <div class="section">
+                <div id="ar1">
+                    <figure id="pic1" style="border: 1px solid grey; " >
+                        <img src="vegetable.jpg"  id="hi3" width="282px" height="185px"  >
+                        <p>Bok Choi</p>
+                        <br>
+                    </figure>
+                    <div id="text">
+                        <h2>Japanese Vegetarian</h2>
+                        <b style="color: rgb(223, 123, 140);">Five week course in London</b>
+                        <p>A five week introduction to traditional <br> Japanese vegetarian meals, teaching you a <br> selection of rice and noodle dishes.</p>
+                    </div>
+                </div>
+
+                <div id="ar2">
+                    <figure id="pic2" style="border: 1px solid gray;">
+                        <img src="teriyaki.jpg"  id="hi3" >
+                        <p>Teryuaki Sauce</p>
+                        <br>
+                    </figure>
+                    <div id="text">
+                        <h2>Sauces Masterclass</h2>
+                        <b style="color: rgb(223, 123, 140);">One day workshop</b>
+                        <p>An intensive one-day course looking at how <br> to create the most delicious sauces for use in <br> a range of Japanese cookery.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="aside">
+                <div id="sec1">
+                    <h2 style="margin-top: 40px; margin-left: 15px; color: rgb(223, 123, 140);">Popular Recipes</h2>
+                    <h3>Yakitori (grilled chicken)</h3> <hr width="90%">
+                    <h3>Tsukune (minced chicken patties)</h3> <hr width="90%">
+                    <h3>Okonomiyaki (savory pancakes)</h3> <hr width="90%">
+                    <h3>Mizutaki (chicken stew)</h3> <hr width="90%">
+                </div>
+                <div id="sec2">
+                    <h2 style="margin-top: 50px; margin-left: 15px; color: rgb(223, 123, 140);">Contact</h2>
+                    <h3>Yoko's Kitchen</h3>
+                    <h3>27 Redchurch Street</h3>
+                    <h3>Shoreditch</h3>
+                    <h3>London E2 7DP</h3>
+                </div>
+            </div>
+            <div class="footer">
+                <b>&#64;2011 Yoko's Kitchen</b>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
