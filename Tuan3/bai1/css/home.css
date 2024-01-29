@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(97,175,237,255);
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    border-bottom: 5px dotted white;
+    position: relative;
+}
+.menu li{
+    height: 50px;
+    width: 100%;
+    list-style-type: none;
+    text-indent: 20px;
+    position: absolute;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    line-height: 50px;
+    font-style: bold;
+}
+.menu li:nth-child(6){
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Arial Black", sans-serif;
+    color: white;
+    text-indent: 0px;
+    line-height: 50px;
+    left: 87%;
+    text-shadow: #3316d8 0px 0px 5px, #3025ff 0px 0px 10px, 0px 0px 20px rgba(35, 16, 179, 0.714);
+}
+.menu li:nth-child(5){
+    left:40%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu li:nth-child(4){
+    left: 30%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu li:nth-child(3){
+    left: 20%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu li:nth-child(2){
+    left: 10%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu li:nth-child(1){
+    left: 1%;
+    font-weight: bold;
+    font-size: 15px;
+}
+.nav{
+    color: white;
+    float: left;
+}
+.mainText h1{
+    font-size: 52px;
+}
+.mainText p{
+    width: 800px;
+    font-size: 28.6px;
+    font-style: justify;
+}
+.imgSky{
+    margin-left: 30px;
+    margin-top: 40px;
+    width: 700px;
+}
+.content h1{
+    float: right;
+    margin-right: 40%;
+    font-size: 40px;
+    color:  blue;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 
+    2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 
+    2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 
+    5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 
+    5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC, 2px 2px 2px rgba(206,89,55,0);
+}
