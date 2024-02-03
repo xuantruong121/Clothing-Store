@@ -198,11 +198,12 @@ section .para hr {
     margin-top: 20px;
 }
 
-.but input {
+.but button {
     width: 65px;
     height: 25px;
-    border: 2px dotted black;
+    border: 2px dotted rgb(49, 41, 41);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .para .para2 {
