@@ -24,19 +24,9 @@
                 </ul>
                 <div class="search-container">
                     <form id="searchForm">
-                        <input type="text" name="search" id="search" placeholder="Tìm kiếm">
+                        <input type="text" name="search" id="search" placeholder="Tìm kiếm" required>
                         <button type="submit">GO</button>
                     </form>
-                    <script>
-                        document.getElementById('searchForm')
-                        .addEventListener('submit', function(event) {
-                            var searchInput = document.getElementById('search').value.trim();
-                            if (searchInput === '') {
-                                event.preventDefault();
-                                alert('Please enter a search term.')
-                            }
-                        });
-                    </script>
                 </div>
             </div>
         </div>
@@ -69,7 +59,7 @@
                     <table>
                         <tr>
                             <td><label for="tukhoa">Từ khoá</label></td>
-                            <td colspan="2"><input type="text" id="inputTukhoa" placeholder="Từ khoá tìm kiếm"></td>
+                            <td colspan="2"><input type="text" id="inputTukhoa" placeholder="Từ khoá tìm kiếm" required></td>
                         </tr>
                         <tr>
                             <td><label for="loaivanban">Loại văn bản</label></td>

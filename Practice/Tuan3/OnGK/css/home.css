@@ -12,6 +12,9 @@
     background-image: url(../img/nen_header.jpg);
     height: auto;
 }
+.header img {
+    vertical-align: middle;
+}
 .title {
     position: relative;
     left: -180px;
@@ -68,7 +71,10 @@
 }
 .main-nav {
     background-color: #eac54d ;
-    height: 60px;
+    height: 35px;
+}
+.main-nav img {
+    vertical-align: middle;
 }
 .main-nav ul {
     list-style-type: none;
