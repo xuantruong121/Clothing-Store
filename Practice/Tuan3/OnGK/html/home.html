@@ -23,10 +23,20 @@
                     <li><a href="#">Liên hệ</a>
                 </ul>
                 <div class="search-container">
-                    <form action="/action_page.php">
+                    <form id="searchForm">
                         <input type="text" name="search" id="search" placeholder="Tìm kiếm">
                         <button type="submit">GO</button>
                     </form>
+                    <script>
+                        document.getElementById('searchForm')
+                        .addEventListener('submit', function(event) {
+                            var searchInput = document.getElementById('search').value.trim();
+                            if (searchInput === '') {
+                                event.preventDefault();
+                                alert('Please enter a search term.')
+                            }
+                        });
+                    </script>
                 </div>
             </div>
         </div>
@@ -55,7 +65,7 @@
         <div class="section">
             <div class="top">
                 <h3>TÌM KIẾM VĂN BẢN</h3>
-                <form action="search" method="get">
+                <form id="mainSearch">
                     <table>
                         <tr>
                             <td><label for="tukhoa">Từ khoá</label></td>

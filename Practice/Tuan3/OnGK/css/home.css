@@ -293,6 +293,14 @@
 .tablePic img {
     width: 300px;
 }
+@keyframes xoay{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.tablePic img:hover {
+    animation: xoay 5s linear;
+}
 .tablePic p {
     font-weight: bold;
     font-size: 15px;
