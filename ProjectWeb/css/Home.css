@@ -76,6 +76,10 @@
     font-size: 13px;
 }
 
+.footer-email p, .footer-phone p {
+    color: grey;
+}
+
 .footer-email p a, .footer-phone p a {
     color: grey;
 }
@@ -111,24 +115,38 @@
 
 .nav-item a:hover {
     color: #337ab7;
+    font-weight: bold;
 }
 
-.nav-item.dropdown:hover .mainmenu {
+.dropend .dropdown-toggle {
+    margin-left: 1em;
+}
+
+.dropdown-item:hover {
+    color: #337ab7;
+    font-weight: bold;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu, .dropend:hover>.dropdown-menu {
     display: block;
+    margin-top: 0;
+    margin-left: 0;
 }
 
-.dropdown-submenu {
-    position: relative;
-}
+@media screen and (min-width:992px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
 
-.dropdown-submenu .dropdown-menu {
-    top: 0;
-    left: 100%;
-    margin-top: -1px;
-}
-
-.dropdown-submenu:hover .submenu {
-    display: block;
+    .dropend .dropdown-toggle {
+        margin-left: .5em;
+    }
 }
 
 #myBtn {
