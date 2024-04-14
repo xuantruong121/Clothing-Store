@@ -6,174 +6,330 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../img/favicon.jpg">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="../css/bootstrapCSS/all.css">
     <link rel="stylesheet" href="../css/bootstrapCSS/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrapCSS/all.min.css">
     <script src="../js/bootstrapJS/jquery.min.js"></script>
     <script src="../js/bootstrapJS/bootstrap.bundle.min.js"></script>
     <script src="../js/bootstrapJS/all.min.js"
         integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/J5f5jU1wFzgW6xZI6loz7Cće/T3WR6XJ5zQ6Al"
         crossorigin="anonymous"></script>
+
+    <!-- CSSs -->
     <link rel="stylesheet" href="../css/Home.css">
-    <script src="../js/scrollupbtn.js"></script>
-    <script src="../js/home.js"></script>
+    <link rel="stylesheet" href="../css/model.css">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="../fonts/remixicon.css">
+
 </head>
 
 <body>
     <!-- Header -->
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__data">
                 <a class="navbar-brand fw-bold" href="../html/home.html">
                     <img src="../img/logo-removebg-preview.png" alt="logo-removebg-preview" height="60px">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">TRANG CHỦ</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="../html/home.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                THỜI TRANG NAM
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item dropend">
-                                    <a class="nav-link dropdown-toggle" href="../html/home.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Áo sơ mi
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo sơ mi Hàn Quốc</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo sơ mi caro</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo sơ mi ngắn tay</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo sơ mi hoạ tiết</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropend">
-                                    <a class="nav-link dropdown-toggle" href="../html/home.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Áo thun
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo thun có cổ</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo thun cổ tròn</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo thun cổ tim</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo thun dài tay</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropend">
-                                    <a class="nav-link dropdown-toggle" href="../html/home.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Áo khoác
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo khoác da</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo khoác jean</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo khoác kaki</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo khoác nỉ Hàn Quốc</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropend">
-                                    <a class="nav-link dropdown-toggle" href="../html/home.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Quần jean
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="../html/home.html">Quần jean rách</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Quần jean ống đứng</a>
-                                        </li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Quần jean kaki</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Quần jean skinny</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="../html/home.html" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                THỜI TRANG NỮ
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item dropend">
-                                    <a class="nav-link dropdown-toggle" href="../html/home.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Áo khoác nữ
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo khoác ManTo nữ</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo khoác len nữ</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo khoác da dữ</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo vest nữ</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropend">
-                                    <a class="nav-link dropdown-toggle" href="../html/home.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Đầm & váy
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="../html/home.html">Đầm dạ tiệc</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Đầm công sở</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Chân váy ngắn</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Chân váy xoè</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropend">
-                                    <a class="nav-link dropdown-toggle" href="../html/home.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Áo nữ
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo thun nữ</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo sơ mi nữ</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo voan nữ</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Áo kiểu nữ</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item dropend">
-                                    <a class="nav-link dropdown-toggle" href="../html/home.html" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Quần nữ
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="../html/home.html">Quần jean nữ</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Quần kaki nữ</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Quần tây nữ</a></li>
-                                        <li><a class="dropdown-item" href="../html/home.html">Quần short nữ</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../html/home.html">GIỚI THIỆU</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../html/home.html">TIN TỨC</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../html/home.html">LIÊN HỆ</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-light" type="submit" title="btn"><i class="fas fa-search"></i></button>
-                    </form>
-                    <a href="../html/login.html" class="btn btn-light"><i class="fas fa-user"></i></a>
-                    <a href="../html/home.html" class="btn btn-light position-relative">
-                        <i class="fas fa-shopping-cart"></i>
-                        <span class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
-                            0
-                            <span class="visually-hidden">number of products</span>
-                        </span>
-                    </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
                 </div>
+            </div>
+
+            <div class="nav__menu flex-grow-1" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="../html/home.html" class="nav__link">Trang chủ</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Thời trang nam <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Áo sơ mi <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo sơ mi Hàn Quốc
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo sơ mi caro
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo sơ mi ngắn tay
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo sơ mi họa tiết
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Áo khoác <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác da
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác jean
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác kaki
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác nỉ Hàn Quốc
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Áo thun <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo thun có cổ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo thun cổ tròn
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo thun cổ tim
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo thun dài tay
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!--=============== DROPDOWN SUBMENU ===============-->
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Quần jean <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần jean rách
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần jean ống đứng
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần jean kaki
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần jean skinny
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Thời trang nữ <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Áo khoác nữ <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác ManTo nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác len nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác da dữ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo vest nữ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Đầm & váy<i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Đầm dạ tiệc
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Đầm công sở
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Chân váy ngắn
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Chân váy xoè
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Áo nữ <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo thun nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo sơ mi nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo voan nữ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo kiểu nữ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!--=============== DROPDOWN SUBMENU ===============-->
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Quần nữ <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần jean nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần kaki nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần tây nữ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần short nữ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li><a href="../html/aboutus.html" class="nav__link">Giới thiệu</a></li>
+                    <li><a href="../html/news.html" class="nav__link">Tin tức</a></li>
+                    <li><a href="../html/contact.html" class="nav__link">Liên hệ</a></li>
+
+                    <div class="btn-a-search d-flex">
+                        <form class="d-flex userInteract" role="search" action="../html/products.html">
+                            <input id="searchInput" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <button id="searchButton" class="btn btn-light me-2" type="submit" title="btn">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                        <a href="../html/login.html" class="btn btn-light userInteract me-2"><i
+                                class="fas fa-user"></i></a>
+                        <a href="../html/shopping-cart.html" class="btn btn-light position-relative userInteract mb-4">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span
+                                class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
+                                0
+                                <span class="visually-hidden">number of products</span>
+                            </span>
+                        </a>
+                    </div>
+                </ul>
+            </div>
             </div>
         </nav>
     </header>
@@ -189,10 +345,10 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="../img/banner.jpg" class="d-block w-100" alt="banner1">
+                        <img src="../img/banner3.jpg" class="d-block w-100" alt="banner1">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="../img/banner2.jpg" class="d-block w-100" alt="banner2">
+                        <img src="../img/banner4.jpg" class="d-block w-100" alt="banner2">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
@@ -211,15 +367,17 @@
     <!-- Main section -->
     <section>
         <div class="container mt-4 mb-4">
-            <h2 class="mb-3">SẢN PHẨM CHO NAM NỔI BẬT</h2>
+            <h2 class="mb-3" id="top-product">SẢN PHẨM CHO NAM NỔI BẬT</h2>
             <div class="row mb-4">
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="card h-100">
                         <img src="../img/hinhnam1.jpg" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Áo sơ mi nam dài tay hoạ tiết 2 bên</p>
-                            <a href="/product?id=1" class="btn btn-primary">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">344.300₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -230,8 +388,10 @@
                         <img src="../img/hinhnam2.jpg" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Áo sơ mi nam - đà form rộng</p>
-                            <a href="/product?id=1" class="btn btn-primary">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">344.300₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -242,8 +402,10 @@
                         <img src="../img/hinhnam3.jpg" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Áo sơ mi Nam tay lỡ form rộng</p>
-                            <a href="/product?id=1" class="btn btn-primary">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">344.300₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -256,8 +418,10 @@
                         <img src="../img/hinhnam4.jpg" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Áo sơ mi nam dài tay form ôm body</p>
-                            <a href="/product?id=1" class="btn btn-primary price-button">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">344.300₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -268,8 +432,10 @@
                         <img src="../img/hinhnam5.jpg" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Áo thun nam viền đen vải thoáng mát</p>
-                            <a href="/product?id=1" class="btn btn-primary">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">344.300₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -277,11 +443,13 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="card h-100">
-                        <img src="../img/hinhnam6.webp" class="card-img-top hinhsp" alt="">
+                        <img src="../img/hinhnam14.jpg" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
-                            <p class="card-text">Áo khoác nam - đà đính sticker</p>
-                            <a href="/product?id=1" class="btn btn-primary">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                            <p class="card-text">Áo khoác Gioven Kelvin không tay có nón màu đen</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">344.300₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -289,21 +457,22 @@
                 </div>
             </div>
             <div class="text-center view-more" style="font-weight: bold;">
-                Mời bạn <a href="../html/home.html" style="text-decoration: none; color: skyblue;">xem thêm các sản phẩm
-                    nổi bật</a>
-                khác
+                Mời bạn <a href="../html/products.html" style="text-decoration: none; color: skyblue;">xem thêm các sản phẩm
+                    nổi bật</a> khác
             </div>
         </div>
         <div class="container mt-4 mb-4">
-            <h2 class="mb-3">SẢN PHẨM CHO NỮ NỔI BẬT</h2>
+            <h2 class="mb-3" id="top-product">SẢN PHẨM CHO NỮ NỔI BẬT</h2>
             <div class="row mb-4">
                 <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="card h-100">
                         <img src="../img/hinhnu1.webp" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Đầm suông Orgamie không tay cổ sen màu xanh da trời</p>
-                            <a href="/product?id=1" class="btn btn-primary">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">344.300₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -314,8 +483,10 @@
                         <img src="../img/hinhnu2.webp" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Đầm suông Orgamie kẻ caro màu hồng tay lửng chân bèo</p>
-                            <a href="/product?id=1" class="btn btn-primary">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">344.300₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -326,8 +497,10 @@
                         <img src="../img/hinhnu3.webp" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Đầm suông Orgamie DR04 xanh dương kẻ tăm nhún cổ</p>
-                            <a href="/product?id=1" class="btn btn-primary">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">784.000₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -340,8 +513,10 @@
                         <img src="../img/hinhnu4.webp" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Đầm ren New Look hai dây màu đen sang trọng mát mẻ</p>
-                            <a href="/product?id=1" class="btn btn-primary price-button">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">344.000₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -352,8 +527,10 @@
                         <img src="../img/hinhnu5.webp" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Đầm ôm KELLYBUI cổ vuông sát nách màu đen sang trọng</p>
-                            <a href="/product?id=1" class="btn btn-primary">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">154.000₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -364,8 +541,10 @@
                         <img src="../img/hinhnu6.webp" class="card-img-top hinhsp" alt="">
                         <div class="card-body">
                             <p class="card-text">Đầm Maxi MX03007 Ivinci màu xanh đen in họa tiết hoa lá</p>
-                            <a href="/product?id=1" class="btn btn-primary">344,300₫</a>
-                            <a href="../html/home.html" class="btn btn-primary pro-cart-button">
+                        </div>
+                        <div class="card-footer d-flex justify-content-end">
+                            <a href="#" class="btn btn-primary">344.300₫</a>
+                            <a href="../html/shopping-cart.html" class="btn btn-primary pro-cart-button">
                                 <i class="fas fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -373,64 +552,63 @@
                 </div>
             </div>
             <div class="text-center view-more" style="font-weight: bold;">
-                Mời bạn <a href="../html/home.html" style="text-decoration: none; color: skyblue;">xem thêm các sản phẩm
-                    nổi bật</a>
-                khác
+                Mời bạn <a href="../html/products.html" style="text-decoration: none; color: skyblue;">xem thêm các sản phẩm
+                    nổi bật</a> khác
             </div>
         </div>
         <div class="container">
             <hr>
         </div>
-        <div class="container my-5">
+        <div class="container mt-3 mb-5">
             <div class="row align-items-center d-flex justify-content-center">
-                <div class="col-6 col-sm-4 col-md-2 col-lg-1">
-                    <a href="../html/home.html">
-                        <img src="../img/brand1.webp" class="img-fluid brand-image" alt="">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-1 d-flex justify-content-center BI">
+                    <a href="../html/notfound.html">
+                        <img src="../img/brand1.webp" class="img-fluid brand-image mt-3" alt="">
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 col-md-2 col-lg-1">
-                    <a href="../html/home.html">
-                        <img src="../img/brand2.webp" class="img-fluid brand-image" alt="">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-1 d-flex justify-content-center BI">
+                    <a href="../html/notfound.html">
+                        <img src="../img/brand2.webp" class="img-fluid brand-image mt-3" alt="">
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 col-md-2 col-lg-1">
-                    <a href="../html/home.html">
-                        <img src="../img/brand3.webp" class="img-fluid brand-image" alt="">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-1 d-flex justify-content-center BI">
+                    <a href="../html/notfound.html">
+                        <img src="../img/brand3.webp" class="img-fluid brand-image mt-3" alt="">
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 col-md-2 col-lg-1">
-                    <a href="../html/home.html">
-                        <img src="../img/brand4.webp" class="img-fluid brand-image" alt="">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-1 d-flex justify-content-center BI">
+                    <a href="../html/notfound.html">
+                        <img src="../img/brand4.webp" class="img-fluid brand-image mt-3" alt="">
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 col-md-2 col-lg-1">
-                    <a href="../html/home.html">
-                        <img src="../img/brand5.webp" class="img-fluid brand-image" alt="">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-1 d-flex justify-content-center BI">
+                    <a href="../html/notfound.html">
+                        <img src="../img/brand5.webp" class="img-fluid brand-image mt-3" alt="">
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 col-md-2 col-lg-1">
-                    <a href="../html/home.html">
-                        <img src="../img/brand6.webp" class="img-fluid brand-image" alt="">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-1 d-flex justify-content-center BI">
+                    <a href="../html/notfound.html">
+                        <img src="../img/brand6.webp" class="img-fluid brand-image mt-3" alt="">
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 col-md-2 col-lg-1">
-                    <a href="../html/home.html">
-                        <img src="../img/brand7.webp" class="img-fluid brand-image" alt="">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-1 d-flex justify-content-center BI">
+                    <a href="../html/notfound.html">
+                        <img src="../img/brand7.webp" class="img-fluid brand-image mt-3" alt="">
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 col-md-2 col-lg-1">
-                    <a href="../html/home.html">
-                        <img src="../img/brand8.webp" class="img-fluid brand-image" alt="">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-1 d-flex justify-content-center BI">
+                    <a href="../html/notfound.html">
+                        <img src="../img/brand8.webp" class="img-fluid brand-image mt-3" alt="">
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 col-md-2 col-lg-1">
-                    <a href="../html/home.html">
-                        <img src="../img/brand9.webp" class="img-fluid brand-image" alt="">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-1 d-flex justify-content-center BI">
+                    <a href="../html/notfound.html">
+                        <img src="../img/brand9.webp" class="img-fluid brand-image mt-3" alt="">
                     </a>
                 </div>
-                <div class="col-6 col-sm-4 col-md-2 col-lg-1">
-                    <a href="../html/home.html">
-                        <img src="../img/brand1.webp" class="img-fluid brand-image" alt="">
+                <div class="col-6 col-sm-4 col-md-2 col-lg-1 d-flex justify-content-center BI">
+                    <a href="../html/notfound.html">
+                        <img src="../img/brand1.webp" class="img-fluid brand-image mt-3" alt="">
                     </a>
                 </div>
             </div>
@@ -438,14 +616,14 @@
         <div class="container mb-5">
             <div class="row">
                 <div class="col-sm-12 col-md-4">
-                    <div class="card border-0 news-card">
-                        <img src="../img/news1.jpg" class="card-img-top news-img" alt="News 1">
+                    <div class="card border-0 news-card h-100">
+                        <a href="../html/news-1.html?id=0"><img src="../img/news1.jpg" class="card-img-top news-img" alt="News 1"></a>
                         <span class="position-absolute top-0 start-0 translate-middle badge bg-primary date-badge">
                             <h5>29|09</h5>
                             <span class="visually-hidden">date</span>
                         </span>
                         <div class="card-body">
-                            <h5 class="card-title">Dáng đẹp trong chớp mắt chỉ với một đôi giày</h5>
+                            <h5 class="card-title"><a href="../html/news-1.html?id=0" id="news-title">Dáng đẹp trong chớp mắt chỉ với một đôi giày</a></h5>
                             <p class="card-text">
                                 Chọn một đôi giày chuẩn cũng giống như việc nàng chọn người yêu vậy, chọn đúng sẽ giúp
                                 nàng xinh đẹp và hạnh phúc hơn. Không những thế, những đôi giày dù là búp bê hay cao gót
@@ -455,36 +633,34 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <div class="card border-0 news-card">
-                        <img src="../img/news2.webp" class="card-img-top news-img" alt="News 2">
+                    <div class="card border-0 news-card h-100">
+                        <a href="../html/news-1.html?id=1"><img src="../img/news2.webp" class="card-img-top news-img" alt="News 2"></a>
                         <span class="position-absolute top-0 start-0 translate-middle badge bg-primary date-badge">
                             <h5>29|09</h5>
                             <span class="visually-hidden">date</span>
                         </span>
                         <div class="card-body">
-                            <h5 class="card-title">Dáng đẹp trong chớp mắt chỉ với một đôi giày</h5>
-                            <p class="card-text">
-                                Chọn một đôi giày chuẩn cũng giống như việc nàng chọn người yêu vậy, chọn đúng sẽ giúp
-                                nàng xinh đẹp và hạnh phúc hơn. Không những thế, những đôi giày dù là búp bê hay cao gót
-                                đều ẩn chứa “năng lực đặc biệt” giúp vóc dáng nàng đẹp...
-                            </p>
+                            <h5 class="card-title"><a href="../html/news-1.html?id=1" id="news-title">Vì sao nàng nên có một chiếc túi “tối giản”?</a></h5>
+                            <p class="card-text">Từ lâu các nàng đã hiểu rằng, đơn giản không có nghĩa là đơn
+                                điệu và nhàm chán. Và rằng, những thiết kế tinh tế, không cầu kỳ thường thanh
+                                lịch và thời trang. Những chiếc túi càng tiết chế màu sắc và chi tiết lại càng
+                                giúp nàng thời trang “chất ngất”, song hành cùng nàng từ đi làm,...</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <div class="card border-0 news-card">
-                        <img src="../img/news3.jpg" class="card-img-top news-img" alt="News 1">
+                    <div class="card border-0 news-card h-100">
+                        <a href="../html/news-1.html?id=2"><img src="../img/news3.jpg" class="card-img-top news-img" alt="News 1"></a>
                         <span class="position-absolute top-0 start-0 translate-middle badge bg-primary date-badge">
                             <h5>29|09</h5>
                             <span class="visually-hidden">date</span>
                         </span>
                         <div class="card-body">
-                            <h5 class="card-title">Dáng đẹp trong chớp mắt chỉ với một đôi giày</h5>
-                            <p class="card-text">
-                                Chọn một đôi giày chuẩn cũng giống như việc nàng chọn người yêu vậy, chọn đúng sẽ giúp
-                                nàng xinh đẹp và hạnh phúc hơn. Không những thế, những đôi giày dù là búp bê hay cao gót
-                                đều ẩn chứa “năng lực đặc biệt” giúp vóc dáng nàng đẹp...
-                            </p>
+                            <h5 class="card-title"><a href="../html/news-1.html?id=2" id="news-title">Vẻ sexy của một cô gái từ đâu mà đến?</a></h5>
+                            <p class="card-text">Bất kỳ cô gái nào khi trưởng thành cũng đều muốn mình có một
+                                chút quyến rũ, thanh lịch, khiến người khác phải ngắm nhìn và nhung nhớ. Vẻ sexy
+                                của một cô gái không chỉ đến từ da thịt, mà còn đến từ nhiều yếu tố khác. Hãy
+                                cùng Juno tìm hiểu những nét gợi cảm của một cô...</p>
                         </div>
                     </div>
                 </div>
@@ -493,7 +669,7 @@
     </section>
     <!-- Footer -->
 
-    <div class="container bg-secondary text-white">
+    <div class="container-fluid bg-secondary text-white">
         <div class="row text-center">
             <div class="col-sm-13 col-md-3 bottom-infor">
                 <i class="fas fa-truck fa-2x"></i>
@@ -523,19 +699,19 @@
                             <p>4 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Tp. Hồ Chí Minh</p>
                         </li>
                         <li class="footer-phone">
-                            <p>Phone: <a href="../html/home.html">0935826768</a></p>
+                            <p>Phone: <a href="../html/notfound.html">0935826768</a></p>
                         </li>
                         <li class="footer-email">
-                            <p>Email: <a href="../html/home.html">xtruong121.work@gmail.com</a></p>
+                            <p>Email: <a href="../html/notfound.html">xtruong121.work@gmail.com</a></p>
                         </li>
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-2 footer-help">
                     <h6 class="text-white">CHÍNH SÁCH HỖ TRỢ</h6>
-                    <p><a href="../html/home.html">Chính sách giao hàng</a></p>
-                    <p><a href="../html/home.html">Chính sách đổi trả</a></p>
-                    <p><a href="../html/home.html">Chính sách bảo hành</a></p>
-                    <p><a href="../html/home.html">Chính sách trả góp</a></p>
+                    <p><a href="../html/notfound.html">Chính sách giao hàng</a></p>
+                    <p><a href="../html/notfound.html">Chính sách đổi trả</a></p>
+                    <p><a href="../html/notfound.html">Chính sách bảo hành</a></p>
+                    <p><a href="../html/notfound.html">Chính sách trả góp</a></p>
                 </div>
                 <div class="col-sm-12 col-md-2 footer-number">
                     <h6 class="text-white">ĐƯỜNG DÂY NÓNG</h6>
@@ -609,6 +785,11 @@
             </div>
         </div>
     </footer>
+    <!-- Scripts -->
+    <script src="../js/menu.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/scrollupbtn.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,105 @@
+@keyframes growth {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+
+    100% {
+        opacity: 1;
+        background-color: #ffffff;
+        width: 20%;
+    }
+}
+
+
+#notfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+#notfound svg {
+    font: 10.5em/2 Open Sans, Impact;
+    margin: 2rem 0;
+    margin-top: 6rem;
+}
+
+#notfound svg .text {
+    fill: none;
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-dasharray: 70 330;
+    stroke-dashoffset: 0;
+    animation: stroke 6s linear infinite;
+    font-size: 30px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#notfound svg .text:nth-child(5n + 1) {
+    stroke: dodgerblue;
+    animation-delay: -1.2s;
+}
+
+#notfound svg .text:nth-child(5n + 2) {
+    stroke: dodgerblue;
+    animation-delay: -2.4s;
+}
+
+#notfound svg .text:nth-child(5n + 3) {
+    stroke: dodgerblue;
+    animation-delay: -3.6s;
+}
+
+#notfound svg .text:nth-child(5n + 4) {
+    stroke: dodgerblue;
+    animation-delay: -4.8s;
+}
+
+#notfound svg .text:nth-child(5n + 5) {
+    stroke: dodgerblue;
+    animation-delay: -6s;
+}
+
+#notfound button {
+    position: absolute;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: grey;
+    transition: all 0.3s ease 0s;
+    height: inherit;
+    bottom: 50px;
+}
+
+#notfound button a {
+    color: white;
+}
+
+#notfound button:hover {
+    background-color: white;
+}
+
+#notfound button a:hover {
+    color: black;
+}
+
+@-webkit-keyframes stroke {
+    100% {
+        stroke-dashoffset: -400;
+    }
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: -400;
+    }
+}

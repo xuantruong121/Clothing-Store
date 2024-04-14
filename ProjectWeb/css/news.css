@@ -1,0 +1,70 @@
+.hover-card .card-img {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-card .card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.hover-card:hover .card-img {
+    opacity: 0.3;
+}
+
+.hover-card:hover .card-img-overlay {
+    opacity: 1;
+}
+
+#news-title {
+    text-decoration: none;
+    color: black;
+}
+
+#news-title:hover {
+    color: skyblue;
+    font-weight: bold;
+}
+
+.all-comments {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.all-comments .comment {
+    margin-bottom: 10px;
+}
+
+.all-comments .comment h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.all-comments .comment p {
+    margin-bottom: 5px;
+}
+
+.comments-display, .comments-section {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.card-footer {
+    background-color: white;
+    border: none;
+}
+
+.card img {
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}

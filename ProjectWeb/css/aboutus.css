@@ -1,0 +1,12 @@
+.main-text ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-text ul li a:hover {
+    color: skyblue;
+}
+
+.lead {
+    text-decoration: underline skyblue;
+}

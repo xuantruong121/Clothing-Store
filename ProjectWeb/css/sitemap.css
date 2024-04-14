@@ -1,0 +1,24 @@
+.container button {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: grey;
+    transition: all 0.3s ease 0s;
+    height: inherit;
+    bottom: 50px;
+}
+
+.container button a {
+    color: white;
+}
+
+.container button:hover {
+    background-color: white;
+}
+
+.container button a:hover {
+    color: black;
+}

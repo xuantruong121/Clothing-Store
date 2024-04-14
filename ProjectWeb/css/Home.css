@@ -1,9 +1,3 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    outline: none;
-}
-
 .hinhsp {
     height: 300px;
     object-fit: cover;
@@ -12,6 +6,10 @@
 .brand-image {
     opacity: 0.3;
     transition: opacity 0.3s ease;
+}
+
+.BI {
+    padding: 0px;
 }
 
 .brand-image:hover {
@@ -33,152 +31,46 @@
     transform: scale(1.1);
 }
 
+.card img {
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
 .date-badge {
     margin-top: 22px;
     margin-left: 34px;
 }
 
-.bottom-infor {
-    margin-top: 15px;
+.pro-cart-button {
+    margin-left: 10px;
 }
 
-.footer-contact {
-    width: 310px;
-}
-
-.footer-contact ul {
-    list-style-type: none;
-}
-
-.footer-contact ul li, .footer-number ul {
-    margin-left: -30px;
-    font-size: 13px;
-}
-
-.footer-help, .footer-link p {
-    font-size: 13px;
-}
-
-.footer-link li {
-    margin-bottom: 16px;
-}
-
-.footer-contact ul li a {
-    text-decoration: none;
-}
-
-.footer-register {
-    width: 350px;
-}
-
-.footer-register p {
-    color: gray;
-    font-size: 13px;
-}
-
-.footer-email p, .footer-phone p {
-    color: grey;
-}
-
-.footer-email p a, .footer-phone p a {
-    color: grey;
-}
-
-.footer-phone p a:hover, .footer-email p a:hover {
-    color: white;
-}
-
-.footer-help p a {
-    text-decoration: none;
-    color: grey;
-}
-
-.footer-help p a:hover {
-    color: white;
-}
-
-.footer-address p {
-    color: grey;
-}
-
-.footer-number p {
-    color: grey;
-}
-
-.footer-link p {
-    color: grey;
-}
-
-.footer-contact h6, .footer-help h6, .footer-number h6, .footer-register h6, .footer-email h6, .footer-phone h6, .footer-address h6, .footer-link h6 {
-    border-bottom: 1px solid skyblue;
-}
-
-.nav-item a:hover {
-    color: #337ab7;
-    font-weight: bold;
-}
-
-.dropend .dropdown-toggle {
-    margin-left: 1em;
-}
-
-.dropdown-item:hover {
-    color: #337ab7;
-    font-weight: bold;
-}
-
-.dropdown .dropdown-menu {
-    display: none;
-}
-
-.dropdown:hover>.dropdown-menu, .dropend:hover>.dropdown-menu {
-    display: block;
-    margin-top: 0;
-    margin-left: 0;
-}
-
-@media screen and (min-width:992px) {
-    .dropend:hover>.dropdown-menu {
-        position: absolute;
-        top: 0;
-        left: 100%;
-    }
-
-    .dropend .dropdown-toggle {
-        margin-left: .5em;
-    }
-}
-
-#myBtn {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Fixed/sticky position */
-    bottom: 20px;
-    /* Place the button at the bottom of the page */
-    right: 30px;
-    /* Place the button 30px from the right */
-    z-index: 99;
-    /* Make sure it does not overlap */
+.card-footer {
+    background-color: white;
     border: none;
-    /* Remove borders */
-    outline: none;
-    /* Remove outline */
-    background-color: skyblue;
-    /* Set a background color */
-    color: white;
-    /* Text color */
-    cursor: pointer;
-    /* Add a mouse pointer on hover */
-    padding: 15px;
-    /* Some padding */
-    border-radius: 10px;
-    /* Rounded corners */
-    font-size: 18px;
-    /* Increase font size */
 }
 
-#myBtn:hover {
-    background-color: #555;
-    /* Add a dark-grey background on hover */
+#news-title {
+    color: black;
+}
+
+#news-title:hover {
+    color: #007bff;
+}
+
+#top-product {
+    color: dodgerblue;
+    /* Change the text color to tomato */
+    font-size: 2.5em;
+    /* Increase the font size */
+    text-align: center;
+    /* Center the text */
+    font-weight: bold;
+    /* Make the text bold */
+    text-shadow: 2px 2px 4px #000000;
+    /* Add a text shadow */
 }

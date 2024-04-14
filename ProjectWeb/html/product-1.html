@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.jpg">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="../css/bootstrapCSS/all.css">
+    <link rel="stylesheet" href="../css/bootstrapCSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrapCSS/all.min.css">
+    <script src="../js/bootstrapJS/jquery.min.js"></script>
+    <script src="../js/bootstrapJS/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrapJS/all.min.js"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/J5f5jU1wFzgW6xZI6loz7Cće/T3WR6XJ5zQ6Al"
+        crossorigin="anonymous"></script>
+
+    <!-- CSSs -->
+    <link rel="stylesheet" href="../css/model.css">
+    <link rel="stylesheet" href="../css/product-1.css">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="../fonts/remixicon.css">
+
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__data">
+                <a class="navbar-brand fw-bold" href="../html/home.html">
+                    <img src="../img/logo-removebg-preview.png" alt="logo-removebg-preview" height="60px">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <div class="nav__menu flex-grow-1" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="../html/home.html" class="nav__link">Trang chủ</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Thời trang nam <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Áo sơ mi <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo sơ mi Hàn Quốc
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo sơ mi caro
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo sơ mi ngắn tay
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo sơ mi họa tiết
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Áo khoác <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác da
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác jean
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác kaki
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác nỉ Hàn Quốc
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Áo thun <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo thun có cổ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo thun cổ tròn
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo thun cổ tim
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo thun dài tay
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!--=============== DROPDOWN SUBMENU ===============-->
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Quần jean <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần jean rách
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần jean ống đứng
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần jean kaki
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần jean skinny
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            Thời trang nữ <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Áo khoác nữ <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác ManTo nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác len nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo khoác da dữ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo vest nữ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Đầm & váy<i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Đầm dạ tiệc
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Đầm công sở
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Chân váy ngắn
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Chân váy xoè
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Áo nữ <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo thun nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo sơ mi nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo voan nữ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Áo kiểu nữ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            <!--=============== DROPDOWN SUBMENU ===============-->
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    Quần nữ <i class="ri-arrow-drop-right-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần jean nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần kaki nữ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần tây nữ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="../html/products.html" class="dropdown__sublink">
+                                            Quần short nữ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li><a href="../html/aboutus.html" class="nav__link">Giới thiệu</a></li>
+                    <li><a href="../html/news.html" class="nav__link">Tin tức</a></li>
+                    <li><a href="../html/contact.html" class="nav__link">Liên hệ</a></li>
+
+                    <div class="btn-a-search d-flex">
+                        <form class="d-flex userInteract" role="search" action="../html/products.html">
+                            <input id="searchInput" class="form-control" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button id="searchButton" class="btn btn-light me-2" type="submit" title="btn"><i
+                                    class="fas fa-search"></i></button>
+                        </form>
+                        <a href="../html/login.html" class="btn btn-light userInteract me-2"><i
+                                class="fas fa-user"></i></a>
+                        <a href="../html/shopping-cart.html" class="btn btn-light position-relative userInteract mb-4">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span
+                                class="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
+                                0
+                                <span class="visually-hidden">number of products</span>
+                            </span>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Content -->
+    <section>
+        <div class="container bg-white">
+            <div class="container pt-3">
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb navpage">
+                        <li class="breadcrumb-item">
+                            <a href="#" style="text-decoration: none; color: black;">Trang chủ</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#" style="text-decoration: none; color: black;">Danh mục</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="#" style="text-decoration: none; color: black;">Tất cả sản phẩm</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">Tên sản phẩm</li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-8 col-md-9">
+                    <div class="row">
+                        <div class="col-sm-5 col-md-4 product-pic">
+                            <img src=" " alt="" class="img-fluid">
+                        </div>
+                        <div class="col-sm-7 col-md-8">
+                            <div class="product-title">
+                                <h4>
+                                    </h>
+                            </div>
+                            <div class="product-date">
+                                <span class="text-start fw-light fst-italic fs-6">Ngày cập nhật: 18:11 26/09/2016</span>
+                            </div>
+                            <div class="product-price">
+                                <span class="fs-2 fw-bold text-danger"> </span>
+                            </div>
+                            <div class="select-opt1">
+                                <label for="">Màu sắc: </label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="white">
+                                    <label class="form-check-label" for="inlineRadio1">Trắng</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="black">
+                                    <label class="form-check-label" for="inlineRadio1">Đen</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="blue">
+                                    <label class="form-check-label" for="inlineRadio1">Xanh biển</label>
+                                </div>
+                            </div>
+                            <div class="select-opt2">
+                                <label for="">Kích thước: </label>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="S">
+                                    <label class="form-check-label" for="inlineRadio1">S</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="M">
+                                    <label class="form-check-label" for="inlineRadio2">M</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="L">
+                                    <label class="form-check-label" for="inlineRadio3">L</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="XL">
+                                    <label class="form-check-label" for="inlineRadio3">XL</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio3" value="XXL">
+                                    <label class="form-check-label" for="inlineRadio3">XXL</label>
+                                </div>
+                            </div>
+                            <div class="product-quantity row align-items-center">
+                                <label class="col-form-label col-sm-4 col-md-2">Số lượng</label>
+                                <div class="col-sm-9 col-md-3">
+                                    <div class="input-group">
+                                        <button type="button" onclick="Nobita.minusQuantity()"
+                                            class="btn btn-outline-secondary">-</button>
+                                        <input type="text" id="quantity" name="quantity" value="1" min="1"
+                                            class="form-control text-center">
+                                        <button type="button" onclick="Nobita.plusQuantity()"
+                                            class="btn btn-outline-secondary">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-4">
+                                    <button type="button" class="btn btn-primary w-100"
+                                        onclick="window.location.href='../html/shopping-cart.html'">
+                                        <i class="fa fa-shopping-cart"></i> THÊM VÀO GIỎ
+                                    </button>
+                                </div>
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-success w-100"
+                                        onclick="window.location.href='../html/shopping-cart.html'">
+                                        <i class="fa fa-check"></i> MUA NGAY
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="information-more">
+                                <strong>Ưu đãi dành riêng cho khách hàng đặt trước Online:</strong>
+                                <ul class="p-0">
+                                    <li><i class="fa fa-check"></i> Giữ hàng tại Shop (không mua không sao).</li>
+                                    <li><i class="fa fa-check"></i> Giao hàng miễn phí toàn quốc trong 60 phút.</li>
+                                    <li><i class="fa fa-check"></i> Tư vấn miễn phí 24/7 (cả dịp Lễ, Tết).</li>
+                                    <li><i class="fa fa-check"></i> Bảo hành nhanh tại hơn 200 Shop trên toàn quốc.</li>
+                                    <li><i class="fa fa-check"></i> Đổi trả thoải mái theo nhu cầu..</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mt-3 mb-4">
+                        <ul class="nav nav-tabs justify-content-start bg-info" style="height: 42px;">
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark border" id="info-tab" data-bs-toggle="tab" href="#info">
+                                    MÔ TẢ SẢN PHẨM
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark border" id="details-tab" data-bs-toggle="tab" href="#details">
+                                    CHI TIẾT SẢN PHẨM
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content border">
+                            <div class="tab-pane fade show active" id="info">
+                                <div class="container-fluid product-description-wrapper">
+                                    <p>KELLYBUI được thành lập vào năm 2006 bởi Nhà thiết kế Bùi Minh Trang, ngay từ khi
+                                        xuất hiện đã thu hút được rất nhiều sự chú ý của công chúng. Với phong cách châu
+                                        Âu&nbsp;tinh tế, hiện đại,&nbsp;quyến rũ và sang trọng, KELLYBUI&nbsp;hướng thời
+                                        trang vào sự tiện ích nhưng vẫn đảm bảo về tính thẩm mỹ và cái đẹp. Sau nhiều
+                                        năm phát triển,&nbsp;KELLYBUI ngày càng khẳng định được tên tuổi của mình trong
+                                        làng mốt Việt cũng như vươn tầm thế giới.</p>
+                                    <p><strong>Đầm ôm KELLYBUI được thiết kế từ chất liệu cao cấp</strong></p>
+                                    <p><strong>Đầm ôm KELLYBUI cổ vuông sát nách màu
+                                            đen</strong><strong>&nbsp;</strong>được thiết kế từ chất liệu Silk&nbsp;cao
+                                        cấp mềm&nbsp;mịn, mang lại sự thoải mái, dễ chịu cho người mặc. Đường may tỉ mỉ,
+                                        sắc sảo, đứng form.</p>
+                                    <p><strong>Thiết kế&nbsp;thanh lịch, thời thượng</strong></p>
+                                    <p>Thiết kế đầm ôm đẹp mắt, tôn dáng, khoe đường cong cơ thể phái đẹp. Đầm
+                                        viền&nbsp;ren&nbsp;tinh tế, toát lên nét thanh lịch, sang trọng, vô cùng quyến
+                                        rũ.&nbsp;</p>
+                                    <p><strong>Hướng dẫn bảo quản</strong></p>
+                                    <ul class="p-0">
+                                        <li>Giặt với sản phẩm cùng màu ở nhiệt độ thường</li>
+                                        <li>Không sử dụng bột giặt có chất tẩy mạnh</li>
+                                        <li>Không giặt máy</li>
+                                        <li>Tránh phơi trực tiếp dưới ánh nắng gắt</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="details">
+                                <table class="table table-bordered mce-item-table" id="tblGeneralAttribute" height="186"
+                                    style="box-sizing: border-box; border-collapse: collapse; border-spacing: 0px; width: 100%; min-width: 500px; max-width: 100%; margin-bottom: 20px; border: 1px solid #eeeeee; color: #333333; font-family: Roboto, sans-serif; font-size: 13px; line-height: 20px;"
+                                    data-mce-style="box-sizing: border-box; border-collapse: collapse; border-spacing: 0px; width: 100%; min-width: 500px; max-width: 100%; margin-bottom: 20px; border: 1px solid #eeeeee; color: #333333; font-family: Roboto, sans-serif; font-size: 13px; line-height: 20px;">
+                                    <tbody style="box-sizing: border-box;" data-mce-style="box-sizing: border-box;">
+                                        <tr class="row-info" style="box-sizing: border-box;"
+                                            data-mce-style="box-sizing: border-box;">
+                                            <td style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee; width: 200px; background-color: #f7f7f7 !important;"
+                                                data-mce-style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee; width: 200px; background-color: #f7f7f7 !important;">
+                                                <span
+                                                    style="box-sizing: border-box; font-family: Roboto-Medium, sans-serif;"
+                                                    data-mce-style="box-sizing: border-box; font-family: Roboto-Medium, sans-serif;">Chất
+                                                    liệu vải</span>
+                                            </td>
+                                            <td style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee;"
+                                                data-mce-style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee;">
+                                                Vải dù, nỉ</td>
+                                        </tr>
+                                        <tr class="row-info" style="box-sizing: border-box;"
+                                            data-mce-style="box-sizing: border-box;">
+                                            <td style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee; width: 200px; background-color: #f7f7f7 !important;"
+                                                data-mce-style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee; width: 200px; background-color: #f7f7f7 !important;">
+                                                <span
+                                                    style="box-sizing: border-box; font-family: Roboto-Medium, sans-serif;"
+                                                    data-mce-style="box-sizing: border-box; font-family: Roboto-Medium, sans-serif;">Size
+                                                    người mẫu mặc</span>
+                                            </td>
+                                            <td style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee;"
+                                                data-mce-style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee;">
+                                                L</td>
+                                        </tr>
+                                        <tr class="row-info" style="box-sizing: border-box;"
+                                            data-mce-style="box-sizing: border-box;">
+                                            <td style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee; width: 200px; background-color: #f7f7f7 !important;"
+                                                data-mce-style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee; width: 200px; background-color: #f7f7f7 !important;">
+                                                <span
+                                                    style="box-sizing: border-box; font-family: Roboto-Medium, sans-serif;"
+                                                    data-mce-style="box-sizing: border-box; font-family: Roboto-Medium, sans-serif;">Số
+                                                    đo người mẫu</span>
+                                            </td>
+                                            <td style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee;"
+                                                data-mce-style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee;">
+                                                100 - 79 - 100 - 185 (cm)</td>
+                                        </tr>
+                                        <tr class="row-info" style="box-sizing: border-box;"
+                                            data-mce-style="box-sizing: border-box;">
+                                            <td style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee; width: 200px; background-color: #f7f7f7 !important;"
+                                                data-mce-style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee; width: 200px; background-color: #f7f7f7 !important;">
+                                                <span
+                                                    style="box-sizing: border-box; font-family: Roboto-Medium, sans-serif;"
+                                                    data-mce-style="box-sizing: border-box; font-family: Roboto-Medium, sans-serif;">Số
+                                                    đo sản phẩm mẫu mặc</span>
+                                            </td>
+                                            <td style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee;"
+                                                data-mce-style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee;">
+                                                Vai: 38cm, Ngực: 98cm, Dài áo: 61cm</td>
+                                        </tr>
+                                        <tr class="row-info" style="box-sizing: border-box;"
+                                            data-mce-style="box-sizing: border-box;">
+                                            <td style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee; width: 200px; background-color: #f7f7f7 !important;"
+                                                data-mce-style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee; width: 200px; background-color: #f7f7f7 !important;">
+                                                <span
+                                                    style="box-sizing: border-box; font-family: Roboto-Medium, sans-serif;"
+                                                    data-mce-style="box-sizing: border-box; font-family: Roboto-Medium, sans-serif;">Xuất
+                                                    xứ</span>
+                                            </td>
+                                            <td style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee;"
+                                                data-mce-style="box-sizing: border-box; padding: 8px; vertical-align: top; border: 1px solid #eeeeee;">
+                                                Trung Quốc</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments-display">
+                        <h3>Bình luận:</h3>
+                        <label for="sort-comments">Sắp xếp theo:</label>
+                        <select id="sort-comments" name="sort-comments" class="form-control" style="width: 100px;">
+                            <option value="latest">Mới nhất</option>
+                            <option value="oldest">Cũ nhất</option>
+                        </select>
+                        <div class="all-comments">
+                            <!-- All comments will be displayed here -->
+                        </div>
+                    </div>
+                    <div class="comments-section mb-3">
+                        <h3>Hãy để lại bình luận của bạn:</h3>
+                        <form class="comment-form">
+                            <div class="form-group">
+                                <label for="name">Tên của bạn:</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group mb-2">
+                                <label for="comment">Bình luận:</label>
+                                <textarea id="comment" name="comment" class="form-control" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Đăng</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="accordion accordion-flush sidebar-menu" id="accordionExample">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    DANH MỤC NHÓM
+                                </button>
+                            </h3>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item">
+                                            <h4 class="accordion-header" id="flush-headingOne">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                                    Thời trang nam
+                                                </button>
+                                            </h4>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a href="../html/products.html">Áo khoác</a></li>
+                                                        <li><a href="../html/products.html">Áo sơ mi</a></li>
+                                                        <li><a href="../html/products.html">Quần jean</a></li>
+                                                        <li><a href="../html/products.html">Quần kaki</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h4 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                                    aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    Thời trang nữ
+                                                </button>
+                                            </h4>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingTwo"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">
+                                                    <ul>
+                                                        <li><a href="../html/products.html">Áo thùn</a></li>
+                                                        <li><a href="../html/products.html">Đầm ngủ</a></li>
+                                                        <li><a href="../html/products.html">Váy công sở</a></li>
+                                                        <li><a href="../html/products.html">Giày búp bê</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <a href="../html/products.html">
+                            <img src="../img/sale.webp" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-secondary text-white">
+        <div class="row text-center">
+            <div class="col-sm-13 col-md-3 bottom-infor">
+                <i class="fas fa-truck fa-2x"></i>
+                <p style="font-weight: bold;">VẬN CHUYỂN MIỄN PHÍ</p>
+            </div>
+            <div class="col-sm-13 col-md-3 bottom-infor">
+                <i class="fas fa-undo fa-2x"></i>
+                <p style="font-weight: bold;">HỖ TRỢ ĐỔI TRẢ NHANH CHÓNG</p>
+            </div>
+            <div class="col-sm-13 col-md-3 bottom-infor">
+                <i class="fas fa-money-bill-alt fa-2x"></i>
+                <p style="font-weight: bold;">NHẬN HÀNG NHẬN TIỀN</p>
+            </div>
+            <div class="col-sm-13 col-md-3 bottom-infor">
+                <i class="fas fa-phone fa-2x"></i>
+                <p style="font-weight: bold;">GỌI 0935826768</p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-2 footer-contact">
+                    <h6 class="text-white">LIÊN HỆ</h6>
+                    <ul>
+                        <li class="footer-address">
+                            <p>4 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Tp. Hồ Chí Minh</p>
+                        </li>
+                        <li class="footer-phone">
+                            <p>Phone: <a href="../html/notfound.html">0935826768</a></p>
+                        </li>
+                        <li class="footer-email">
+                            <p>Email: <a href="../html/notfound.html">xtruong121.work@gmail.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-2 footer-help">
+                    <h6 class="text-white">CHÍNH SÁCH HỖ TRỢ</h6>
+                    <p><a href="../html/notfound.html">Chính sách giao hàng</a></p>
+                    <p><a href="../html/notfound.html">Chính sách đổi trả</a></p>
+                    <p><a href="../html/notfound.html">Chính sách bảo hành</a></p>
+                    <p><a href="../html/notfound.html">Chính sách trả góp</a></p>
+                </div>
+                <div class="col-sm-12 col-md-2 footer-number">
+                    <h6 class="text-white">ĐƯỜNG DÂY NÓNG</h6>
+                    <ul>
+                        <li>
+                            <p>Bán hàng(8:30 - 21:00)</p>
+                        </li>
+                        <li>
+                            <p>19001560</p>
+                        </li>
+                        <li>
+                            <p>Góp ý, khiếu nại(8:30 - 17:00)</p>
+                        </li>
+                        <li>
+                            <p>19001562</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-2 footer-link">
+                    <h6 class="text-white">LIÊN KẾT</h6>
+                    <ul class="list-inline">
+                        <li class="list-item">
+                            <p>Hãy kết nối với chúng tôi.</p>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com" class="text-white" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com" class="text-white" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.twitter.com" class="text-white" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.google.com" class="text-white" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com" class="text-white" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <img src="../img/logobct.webp" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-2 footer-register">
+                    <h6 class="text-white">ĐĂNG KÝ NHẬN ƯU ĐÃI</h6>
+                    <p>Hãy đăng ký email của bạn để cập nhật thông tin khuyến mãi nhanh nhất.</p>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="email" placeholder="Nhập email của bạn..."
+                            aria-label="email">
+                        <button class="btn btn-light" type="submit">GỬI</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-5 text-white">
+                <div class="col-12">
+                    <p class="text-center small">© 2023 Fashion Store. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="../js/menu.js"></script>
+    <script src="../js/search.js"></script>
+    <script src="../js/product-1.js"></script>
+    <script src="../js/comments.js"></script>
+    <script src="../js/scrollupbtn.js"></script>
+
+</body>
+
+</html>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
