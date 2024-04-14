@@ -23,7 +23,7 @@ const signUpEmailInput = document.getElementById('signUpEmail');
 const signUpPasswordInput = document.getElementById('signUpPassword');
 
 // Regular expressions for email and password validation
-const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+const emailRegex = /^[a-zA-Z0-9._%+-]+@(gmail|yahoo)\.com(\.vn)?$/;
 const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
 // At least 8 characters, at least one letter and one number
 
