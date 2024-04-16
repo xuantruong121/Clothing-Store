@@ -42,7 +42,7 @@ signUpName.addEventListener('blur', function () {
 signUpEmailInput.addEventListener('blur', function () {
     // Validate email
     if (!emailRegex.test(signUpEmailInput.value)) {
-        emailError.textContent = 'Email không hợp lệ. Vui lòng nhập email hợp lệ. Vd: 123@gmail.com';
+        emailError.textContent = 'Vui lòng nhập email hợp lệ.Vd: 123@gmail.com';
     } else {
         emailError.textContent = '';
     }
