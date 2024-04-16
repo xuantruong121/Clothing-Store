@@ -56,6 +56,28 @@ signUpPasswordInput.addEventListener('blur', function () {
     }
 });
 
+const pwdSUInput = document.getElementById('signUpPassword'); 
+const pwdSIInput = document.getElementById('password');
+
+const warning1 = document.getElementById('capslock-warning1');
+const warning2 = document.getElementById('capslock-warning2');
+
+pwdSUInput.addEventListener('keyup', function(event) {
+    if (event.getModifierState('CapsLock')) {
+        warning1.hidden = false;
+    } else {
+        warning1.hidden = true;
+    }
+});
+
+pwdSIInput.addEventListener('keyup', function(event) {
+    if (event.getModifierState('CapsLock')) {
+        warning2.hidden = false;
+    } else {
+        warning2.hidden = true;
+    }
+});
+
 
 signUpBtn.addEventListener('click', (event) => {
     event.preventDefault();
